@@ -1,15 +1,15 @@
 How To
 =====================
 
-1.  Clone project
+1. Clone project
 ```
 https://github.com/timveil/ambari-view-archetype.git
 ```
-1.  Install `ambari-view-archetype` in your local Maven Repository
+1. Install `ambari-view-archetype` in your local Maven Repository
 ```
 mvn install
 ```
-1.  Execute the following to generate your new Ambari View project from the `ambari-view-archetype`
+1. Execute the following to generate your new Ambari View project from the `ambari-view-archetype`
 ```
 mvn archetype:generate \
 -DgroupId=[CHANGE_ME] \
