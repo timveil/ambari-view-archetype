@@ -1,0 +1,2 @@
+ambari-view-archetype
+=====================
