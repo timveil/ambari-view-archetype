@@ -1,0 +1,19 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.log
+*.ids
+
+.idea
+*.iml
+*.iws
+
+.DS_Store
+
+out/
+target/
+src/test/resources/projects/poc/project/testArtifact
