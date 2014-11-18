@@ -3,6 +3,8 @@
                       name="ambari-view-archetype">
     <requiredProperties>
         <requiredProperty key="package"/>
+        <requiredProperty key="viewName"/>
+        <requiredProperty key="viewLabel"/>
     </requiredProperties>
 
     <fileSets>
@@ -20,6 +22,13 @@
 
         <fileSet filtered="true" packaged="false">
             <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="true" packaged="false">
+            <directory>src/main/web</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
