@@ -16,14 +16,19 @@
                 <exclude>${project.build.finalName}*.jar</exclude>
             </excludes>
         </fileSet>
+
+        <fileSet>
+            <directory>${basedir}/src/main/web</directory>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>${project.build.directory}/lib</directory>
+            <outputDirectory>/WEB-INF/lib</outputDirectory>
+            <excludes>
+                <exclude>${project.build.finalName}*.jar</exclude>
+            </excludes>
+        </fileSet>
     </fileSets>
 
-    <dependencySets>
-        <dependencySet>
-            <outputDirectory>/WEB-INF/lib</outputDirectory>
-            <useProjectArtifact>false</useProjectArtifact>
-            <unpack>false</unpack>
-            <scope>runtime</scope>
-        </dependencySet>
-    </dependencySets>
 </assembly>
