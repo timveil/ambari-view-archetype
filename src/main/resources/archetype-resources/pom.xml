@@ -13,6 +13,7 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <!-- local version of Ambari as workaround until 1.7 or > is available in public maven repos -->
         <ambari.version>1.3.0-SNAPSHOT</ambari.version>
     </properties>
 
