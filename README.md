@@ -5,11 +5,11 @@ How To
 ```
 https://github.com/timveil/ambari-view-archetype.git
 ```
-1. Install `ambari-view-archetype` in your local Maven Repository
+2. Install `ambari-view-archetype` in your local Maven Repository
 ```
 mvn install
 ```
-1. Execute the following to generate your new Ambari View project from the `ambari-view-archetype`
+3. Execute the following to generate your new Ambari View project from the `ambari-view-archetype`
 ```
 mvn archetype:generate \
 -DgroupId=[CHANGE_ME] \
@@ -25,4 +25,4 @@ mvn archetype:generate \
 -DinteractiveMode=false
 
 ```
-1.  Once you've created your new view project, you can run `mvn package` to create the `*-view.jar`.  The new view can be deployed on your Ambari server by dropping it in `/var/lib/ambari-server/resources/views`
+4.  Once you've created your new view project, you can run `mvn package` to create the `*-view.jar`.  The new view can be deployed on your Ambari server by dropping it in `/var/lib/ambari-server/resources/views`
