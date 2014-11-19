@@ -1,6 +1,9 @@
 How To
 =====================
 
+Before you start, you'll need Maven and a local build of Ambari
+
+
 1. Clone project
 ```
 https://github.com/timveil/ambari-view-archetype.git
